@@ -94,6 +94,7 @@ def generate_response():
             "attention_mask": attention_mask,
             "max_new_tokens": 1000000000,
             "pad_token_id": tokenizer.pad_token_id,
+            "eos_token_id": tokenizer.eos_token_id,
             "streamer": streamer,
         }
     )
